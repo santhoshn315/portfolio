@@ -39,7 +39,7 @@ const Contact = () => {
                 </label>
                 <textarea
                   className="textarea textarea-warning"
-                  placeholder="Enter your message here"
+                  value="Enter your message here"
                 >
                   Message
                 </textarea>

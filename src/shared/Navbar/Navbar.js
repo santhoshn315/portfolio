@@ -66,7 +66,11 @@ function Navbar() {
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
         <div className="navbar-end">
-          <a href="#" target="_blank" className="btn hover:text-secondary">
+          <a
+            href="https://drive.google.com/file/d/127u5fyrrQD603tbjFg2u80MYT4iUIqAM/view?usp=sharing"
+            target="_blank"
+            className="btn hover:text-secondary"
+          >
             Resume
           </a>
         </div>

@@ -2,11 +2,11 @@ import React from "react";
 import Lottie from "lottie-react";
 
 const ProjCards = ({ item }) => {
-  const { id, ProjectName, animation, Description ,link} = item;
+  const { ProjectName, animation, Description, link } = item;
 
   return (
     <div>
-      <div className="card card-side bg-base-100 shadow-xl">
+      <div className="card card-side bg-base-100 shadow-xl sm:grid-cols-1">
         <figure>
           <Lottie animationData={animation} loop={true} />
         </figure>
@@ -14,7 +14,7 @@ const ProjCards = ({ item }) => {
           <h2 className="card-title">{ProjectName}</h2>
           <p>{Description}</p>
           <div className="card-actions justify-end">
-            <a href={link}>
+            <a href={link} target="_blank">
               <button className="btn btn-secondary btn-outline">View</button>
             </a>
           </div>
