@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const mailtoLink = `mailto:santhoshn315com??body=${message}`;
+    window.location.href = mailtoLink;
+    console.log(message);
+  };
   return (
     <div>
       <div className="hero min-h-screen bg-base-200 ">
@@ -23,32 +31,25 @@ const Contact = () => {
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <div className="card-body">
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Email</span>
-                </label>
-                <input
-                  type="text"
-                  placeholder="email"
-                  className="input input-bordered textarea-warning"
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Message</span>
-                </label>
-                <textarea
-                  className="textarea textarea-warning"
-                  value="Enter your message here"
-                >
-                  Message
-                </textarea>
-              </div>
-              <div className="form-control mt-6">
-                <button className="btn btn-secondary btn-outline">
-                  Submit
-                </button>
-              </div>
+              <form onSubmit={handleSubmit}>
+                <div className="form-control mt-6">
+                  <textarea
+                    className="textarea textarea-warning"
+                    placeholder="Enter your message here"
+                    id="message"
+                    value={message}
+                    onChange={(event) => setMessage(event.target.value)}
+                  ></textarea>
+                </div>
+                <div className="form-control mt-6">
+                  <button
+                    className="btn btn-secondary btn-outline"
+                    type="submit"
+                  >
+                    Contact Me
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
