@@ -2,12 +2,12 @@ import React from "react";
 
 function About1() {
   return (
-    <div>
-      <h1 className="text-4xl text-secondary text-center py-10 w-[90vw] justify-center">
+    <div className="justify-center">
+      <h1 className="text-4xl text-secondary text-center py-10 w-[98vw] justify-center">
         Education
       </h1>
-      <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[90vw]">
-        <div className="card-body">
+      <div className="card card-bordered my-1 grid grid-cols-1 justify-center md:px-10 bg-base-100 shadow-xl w-[98vw]">
+        <div className="card-body justify-center">
           <h2 className="card-title text-secondary">10th Standard</h2>
           <p>Cambridge Public School | 2014</p>
           <div className="card-actions justify-end md:justify-left">
@@ -15,7 +15,7 @@ function About1() {
           </div>
         </div>
       </div>
-      <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[90vw]">
+      <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[98vw]">
         <div className="card-body">
           <h2 className="card-title text-secondary">12th Standard</h2>
           <p>Nagarjuna PU College | 2016</p>
@@ -24,7 +24,7 @@ function About1() {
           </div>
         </div>
       </div>
-      <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[90vw]">
+      <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[98vw]">
         <div className="card-body">
           <h2 className="card-title text-secondary">
             Bachelors of Engineering
@@ -35,7 +35,7 @@ function About1() {
           </div>
         </div>
       </div>
-      <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[90vw]">
+      <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[98vw]">
         <div className="card-body">
           <h2 className="card-title text-secondary">Masters</h2>
           <p>RV College of Engineering | Computer Science | 2023</p>

@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <div>
-      <h1 className="text-4xl  text-center text-secondary py-14 w-[90vw] justify-center">
+      <h1 className="text-4xl  text-center text-secondary py-14 w-[98vw] justify-center">
         About Me
       </h1>
       <VerticalTimeline animate={true} lineColor={"goldenrod"}>
