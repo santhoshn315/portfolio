@@ -5,10 +5,10 @@ const ProjCards = ({ item }) => {
   const { ProjectName, animation, Description, link } = item;
 
   return (
-    <div>
-      <div className="card card-side bg-base-100 shadow-xl sm:grid-cols-1">
+    <div className="w-[90vw] justify-center">
+      <div className="card card-side w-96 bg-base-100 shadow-xl ">
         <figure>
-          <Lottie animationData={animation} loop={true} />
+          <Lottie animationData={animation} loop={true}></Lottie>
         </figure>
         <div className="card-body">
           <h2 className="card-title">{ProjectName}</h2>

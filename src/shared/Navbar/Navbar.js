@@ -67,7 +67,7 @@ function Navbar() {
         </div>
         <div className="navbar-end">
           <a
-            href="https://drive.google.com/file/d/127u5fyrrQD603tbjFg2u80MYT4iUIqAM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1P_NBi_HCQs2492uf3CukaI31MLDEP5bA/view?usp=sharing"
             target="_blank"
             className="btn hover:text-secondary"
           >

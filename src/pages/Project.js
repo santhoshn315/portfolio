@@ -40,15 +40,15 @@ const Project = () => {
       animation: crypto,
       link: "https://github.com/santhoshn315/Cryptoverse",
       Description:
-        "The CryptoVerse is a Cryptocurrency web application developed using Reactjs for providing the latest updates, value statistics, market cap and news.",
+        "The CryptoVerse is a Cryptocurrency web application to get the latest updates, value statistics, market cap and news.",
     },
   ];
   return (
     <div>
-      <h1 className="text-lg lg:text-4xl text-secondary text-center py-10">
+      <h1 className="text-lg lg:text-4xl text-secondary text-center py-10 w-[90vw] justify-center">
         My Projects
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:grid-cols-1 py-10 justify-center align-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 py-10 justify-center align-center">
         {proj.map((item, i) => (
           <ProjCards key={i} item={item}></ProjCards>
         ))}

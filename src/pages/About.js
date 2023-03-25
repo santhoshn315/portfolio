@@ -1,7 +1,5 @@
 import { ReactComponent as WorkIcon } from "./../assets/work.svg";
 import { ReactComponent as SchoolIcon } from "./../assets/school.svg";
-import timelineElements from "./timelineElements";
-import "./style.mini.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -14,7 +12,9 @@ const About = () => {
 
   return (
     <div>
-      <h1 className="text-5xl  text-center text-secondary py-14">About Me</h1>
+      <h1 className="text-4xl  text-center text-secondary py-14 w-[90vw] justify-center">
+        About Me
+      </h1>
       <VerticalTimeline animate={true} lineColor={"goldenrod"}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

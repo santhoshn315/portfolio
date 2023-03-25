@@ -3,11 +3,12 @@ import Banner from "./Banner/Banner";
 import About from "../pages/About";
 import Project from "./Project";
 import Contact from "./Contact";
+import About1 from "./About1";
 function home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Banner></Banner>
-      <About></About>
+      <About1></About1>
       <Project></Project>
       <Contact></Contact>
     </div>
