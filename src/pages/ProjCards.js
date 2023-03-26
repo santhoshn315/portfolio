@@ -5,8 +5,8 @@ const ProjCards = ({ item }) => {
   const { ProjectName, animation, Description, link } = item;
 
   return (
-    <div className="w-[98vw] justify-center">
-      <div className="card card-side w-96 bg-base-100 shadow-xl ">
+    <div className="w-[100vw] justify-center">
+      <div className="card card-side bg-base-100 shadow-xl ">
         <figure>
           <Lottie animationData={animation} loop={true}></Lottie>
         </figure>
