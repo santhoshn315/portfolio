@@ -45,7 +45,7 @@ const Project = () => {
   ];
   return (
     <div>
-      <h1 className="text-4xl text-secondary text-center py-10 w-[98vw] justify-center">
+      <h1 className="text-2xl md:text-4xl text-secondary text-center py-10 w-[98vw] justify-center">
         My Projects
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 py-10 justify-center align-center">

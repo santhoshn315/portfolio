@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { SiLinkedin, SiGithub } from "react-icons/si";
 function Navbar() {
   const menuItems = (
     <React.Fragment>
@@ -70,6 +70,20 @@ function Navbar() {
           >
             Santhosh N
           </Link>
+          <a
+            href="https://www.linkedin.com/in/santhoshn315/"
+            className="mx-5"
+            target="_blank"
+          >
+            <SiLinkedin></SiLinkedin>
+          </a>
+          <a
+            href="https://github.com/santhoshn315"
+            className="mx-5"
+            target="_blank"
+          >
+            <SiGithub></SiGithub>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
