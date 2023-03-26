@@ -11,6 +11,7 @@ function home() {
     <div className="overflow-x-hidden">
       <Banner></Banner>
       <Education></Education>
+      <Experience></Experience>
       <Project></Project>
       <Contact></Contact>
     </div>
