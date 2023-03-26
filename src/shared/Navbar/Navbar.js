@@ -24,6 +24,15 @@ function Navbar() {
           Contact
         </Link>
       </li>
+      <li>
+        <a
+          href="https://drive.google.com/file/d/1P_NBi_HCQs2492uf3CukaI31MLDEP5bA/view?usp=sharing"
+          target="_blank"
+          className="hover:text-secondary"
+        >
+          Resume
+        </a>
+      </li>
     </React.Fragment>
   );
 
@@ -64,15 +73,6 @@ function Navbar() {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
-        </div>
-        <div className="navbar-end">
-          <a
-            href="https://drive.google.com/file/d/1P_NBi_HCQs2492uf3CukaI31MLDEP5bA/view?usp=sharing"
-            target="_blank"
-            className="btn hover:text-secondary"
-          >
-            Resume
-          </a>
         </div>
       </div>
     </div>
