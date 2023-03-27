@@ -12,7 +12,7 @@ const Banner = () => {
         </div>
 
         <div className="w-[96] lg:w-full ">
-          <h1 className="text-5xl text-secondary font-bold">
+          <h1 className="text-5xl text-[#ffbb00] font-bold">
             <Typewriter
               options={{
                 strings: [

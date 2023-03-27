@@ -5,22 +5,22 @@ function Navbar() {
   const menuItems = (
     <React.Fragment>
       <li>
-        <Link to="/" className="hover:text-secondary">
+        <Link to="/" className="hover:text-[#ffbb00]">
           Home
         </Link>
       </li>
       <li>
-        <Link to="/About" className="hover:text-secondary">
+        <Link to="/About" className="hover:text-[#ffbb00]">
           About Me
         </Link>
       </li>
       <li>
-        <Link to="/Projects" className="hover:text-secondary ">
+        <Link to="/Projects" className="hover:text-[#ffbb00] ">
           Projects
         </Link>
       </li>
       <li>
-        <Link to="/Contact" className="hover:text-secondary ">
+        <Link to="/Contact" className="hover:text-[#ffbb00] ">
           Contact
         </Link>
       </li>
@@ -28,7 +28,7 @@ function Navbar() {
         <a
           href="https://drive.google.com/file/d/1P_NBi_HCQs2492uf3CukaI31MLDEP5bA/view?usp=sharing"
           target="_blank"
-          className="hover:text-secondary"
+          className="hover:text-[#ffbb00]"
         >
           Resume
         </a>
@@ -66,20 +66,20 @@ function Navbar() {
           </div>
           <Link
             to="/"
-            className="btn btn-ghost normal-case text-xl hover:text-secondary"
+            className="btn btn-ghost normal-case text-xl hover:text-[#ffbb00]"
           >
             Santhosh N
           </Link>
           <a
             href="https://www.linkedin.com/in/santhoshn315/"
-            className="mx-5"
+            className="mx-5 hover:text-[#ffbb00]"
             target="_blank"
           >
             <SiLinkedin></SiLinkedin>
           </a>
           <a
             href="https://github.com/santhoshn315"
-            className="mx-5"
+            className="mx-5 hover:text-[#ffbb00]"
             target="_blank"
           >
             <SiGithub></SiGithub>

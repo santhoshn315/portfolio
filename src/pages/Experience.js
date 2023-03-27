@@ -3,13 +3,13 @@ import React from "react";
 function Experience() {
   return (
     <div className="justify-center">
-      <h1 className="text-4xl text-secondary text-center py-10 w-[100vw] justify-center">
+      <h1 className="text-4xl text-[#ffbb00] text-center py-10 w-[100vw] justify-center">
         Experience
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="card card-bordered my-1 grid grid-cols-1 justify-center md:px-10 bg-base-100 shadow-xl mx-1">
           <div className="card-body justify-center">
-            <h2 className="card-title text-secondary">Systems Engineer</h2>
+            <h2 className="card-title text-[#ffbb00]">Systems Engineer</h2>
             <p>Infosys | .Net Framework | Oct 2020 - Aug 2021</p>
             <ul className="list-disc font-mono text-justify">
               <li>
@@ -31,7 +31,7 @@ function Experience() {
         </div>
         <div className="card card-bordered my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl mx-1">
           <div className="card-body">
-            <h2 className="card-title text-secondary">Software Intern</h2>
+            <h2 className="card-title text-[#ffbb00]">Software Intern</h2>
             <p>
               Microchip Technology | Typescript Developer | Dec 2022 - Present
             </p>

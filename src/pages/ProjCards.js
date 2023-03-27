@@ -6,7 +6,7 @@ const ProjCards = ({ item }) => {
 
   return (
     <div className="w-[96] justify-center">
-      <div className="card card-side bg-base-100 shadow-xl ">
+      <div className="card card-side bg-base-100 shadow-xl md:hover:scale-105">
         <figure>
           <Lottie animationData={animation} loop={true}></Lottie>
         </figure>
@@ -15,7 +15,7 @@ const ProjCards = ({ item }) => {
           <p>{Description}</p>
           <div className="card-actions justify-end">
             <a href={link} target="_blank">
-              <button className="btn btn-secondary btn-outline">View</button>
+              <button className="btn btn-warning btn-outline">View</button>
             </a>
           </div>
         </div>
