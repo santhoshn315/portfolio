@@ -26,7 +26,7 @@ function Navbar() {
       </li>
       <li>
         <a
-          href="https://drive.google.com/file/d/1P_NBi_HCQs2492uf3CukaI31MLDEP5bA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Cftj2rcvbgcffSeiR39XWj72556bH-WE/view?usp=sharing"
           target="_blank"
           className="hover:text-[#ffbb00]"
         >

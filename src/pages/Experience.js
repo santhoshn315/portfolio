@@ -13,18 +13,16 @@ function Experience() {
             <p>Infosys | .Net Framework | Oct 2020 - Aug 2021</p>
             <ul className="list-disc font-mono text-justify">
               <li>
-                Primary responsibility as developer involved creating Web APIs
-                using Entity framework.
+                Designed, developed and maintained RESTful Web APIs using the ASP.NET Web API framework which
+                impacted around 5 million users.Conducted comprehensive API testing with Postman to ensure proper
+                functionality.
               </li>
               <li className="">
-                Created a RESTful Web API Service using ASP.Net Web API to
-                generate data that was consumed by the front-end.
+                Created and optimized the MS SQL database schema and stored procedures, resulting in a 23% reduction
+                in query execution time and enabling the efficient retrieval and storage of data.
               </li>
-              <li>Used Postman to test the API functionality.</li>
-              <li>
-                Participated in various client meetings with the team and
-                Program Manager to discuss improvements/amendments in the
-                application.
+              <li>Collaborated with product owners, and QA teams to ensure timely delivery of high-quality software, while
+                leveraging HTML, CSS, and JavaScript for front-end and user interface development.
               </li>
             </ul>
           </div>
@@ -37,20 +35,15 @@ function Experience() {
             </p>
             <ul className="list-disc font-mono text-justify">
               <li>
-                Part of MCU16 team that is responsible for Handling the MPLAB
-                Code Configurator (MCC) Melody in MPLABX application, which
-                enables users to configure Microchip Micro-controllers and
-                generate highly efficient C code.
+                Leveraged Node.js and TypeScript to design and develop peripheral libraries and drivers for micro-controllers
+                within MCC Melody, a core component of MPLABX, catering to a user base of over 2 million.
               </li>
-              <li>
-                Primary responsibility as typescript developer is to develop
-                Peripheral Libraries(PLIBs) and Driver modules to support
-                multiple peripherals.
+              <li className="">
+                Developed intuitive software interfaces, facilitating efficient peripheral configuration, and implemented robust
+                debugging and testing practices to ensure reliability.
               </li>
-              <li>
-                In addition,managed the user interface (UI) within the MCC
-                Melody, which involved displaying dynamic data. We use Redux to
-                control the state of the application.
+              <li>Designed and implemented a dynamic user interface (UI) for MCC Melody, utilizing React.js, Redux for
+                state management and Jest for thorough unit testing to guarantee code quality and stability.
               </li>
             </ul>
           </div>
