@@ -12,7 +12,7 @@ const Banner = () => {
         </div>
 
         <div className="w-[96] lg:w-full ">
-          <h1 className="text-5xl text-[#ffbb00] font-bold">
+          <h1 className="text-5xl text-[#c48a16] font-bold">
             <Typewriter
               options={{
                 strings: [
@@ -25,12 +25,13 @@ const Banner = () => {
               }}
             />
           </h1>
-          <p className="py-6 text-xl font-mono text-justify">
-            Hi, my name is Santhosh and I am a recent college graduate with a
-            degree in computer science. I am excited to start my career in the
-            field and am eager to learn as much as possible. I have a strong
-            foundation in various programming languages and am proficient in
-            problem-solving and critical thinking skills.
+          <p className="py-6 text-xl font-mono text-center lg:text-left">
+            Hi, I'm Santosh N, a Software Engineer passionate about building software that makes a difference.<br></br><br></br>
+            I earned my Master's in Computer Science from R V College of Engineering and currently work at Microchip Technology, where I develop
+            user interfaces and Peripheral libraries for MCC Melody, a software component of MPLABX IDE.<br></br><br></br>
+            At Infosys, I worked on developing RESTful Web APIs using the ASP.NET and crafting MS SQL queries and stored procedures, aimed at optimizing database performance.
+            <br></br><br></br>
+            I love staying updated with the latest in tech and believe in the power of teamwork for innovative solutions. Let's connect and explore the world of software together!
           </p>
         </div>
       </div>

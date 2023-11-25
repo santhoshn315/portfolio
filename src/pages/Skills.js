@@ -20,7 +20,7 @@ import { TbBrandCpp, TbBrandTypescript, TbBrandVscode } from "react-icons/tb";
 const Skills = () => {
   return (
     <div>
-      <h1 className="text-2xl md:text-4xl text-[#ffbb00] text-center my-10 w-[100vw] justify-center">
+      <h1 className="text-2xl md:text-4xl text-[#c48a16] text-center my-10 w-[100vw] justify-center">
         Professional Skillset
       </h1>
       <div className="vw-[100vw] md:m-20">
@@ -41,7 +41,7 @@ const Skills = () => {
           <DiGit className="border-2 rounded-lg border-yellow-600 rounded-lg p-2 m-1 w-1/6 h-1/6 scale-75 hover:scale-90"></DiGit>
         </div>
       </div>
-      <h1 className="text-2xl md:text-4xl mt-5 text-[#ffbb00] text-center  w-[100vw] justify-center">
+      <h1 className="text-2xl md:text-4xl mt-5 text-[#c48a16] text-center  w-[100vw] justify-center">
         Tools I use
       </h1>
       <div className="vw-[90vw]  md:m-20">

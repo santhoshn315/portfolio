@@ -5,30 +5,31 @@ function Navbar() {
   const menuItems = (
     <React.Fragment>
       <li>
-        <Link to="/" className="hover:text-[#ffbb00]">
+        <Link to="/" className="hover:text-[#c48a16]">
           Home
         </Link>
       </li>
       <li>
-        <Link to="/About" className="hover:text-[#ffbb00]">
+        <Link to="/About" className="hover:text-[#c48a16]">
           About Me
         </Link>
       </li>
       <li>
-        <Link to="/Projects" className="hover:text-[#ffbb00] ">
+        <Link to="/Projects" className="hover:text-[#c48a16] ">
           Projects
         </Link>
       </li>
       <li>
-        <Link to="/Contact" className="hover:text-[#ffbb00] ">
+        <Link to="/Contact" className="hover:text-[#c48a16] ">
           Contact
         </Link>
       </li>
       <li>
         <a
-          href="https://drive.google.com/file/d/1Cftj2rcvbgcffSeiR39XWj72556bH-WE/view?usp=sharing"
+          href="https://drive.google.com/file/d/1-0DGm4Dyvw-RvGoKoUc2g8OsMLem5OQ3/view?usp=sharing"
           target="_blank"
-          className="hover:text-[#ffbb00]"
+          rel="noopener noreferrer"
+          className="hover:text-[#c48a16]"
         >
           Resume
         </a>
@@ -66,21 +67,23 @@ function Navbar() {
           </div>
           <Link
             to="/"
-            className="btn btn-ghost normal-case text-xl hover:text-[#ffbb00]"
+            className="btn btn-ghost normal-case text-xl hover:text-[#c48a16]"
           >
             Santhosh N
           </Link>
           <a
             href="https://www.linkedin.com/in/santhoshn315/"
-            className="mx-5 hover:text-[#ffbb00]"
+            className="mx-5 hover:text-[#c48a16]"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <SiLinkedin></SiLinkedin>
           </a>
           <a
             href="https://github.com/santhoshn315"
-            className="mx-5 hover:text-[#ffbb00]"
+            className="mx-5 hover:text-[#c48a16]"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <SiGithub></SiGithub>
           </a>

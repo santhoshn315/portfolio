@@ -4,7 +4,7 @@ import { RouterProvider } from "react-router-dom";
 
 function App() {
   return (
-    <div className="w-[100vw] justify-center">
+    <div className="w-[100vw] justify-center font-mono">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
