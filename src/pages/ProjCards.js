@@ -14,7 +14,7 @@ const ProjCards = ({ item }) => {
           <h2 className="card-title">{ProjectName}</h2>
           <p>{Description}</p>
           <div className="card-actions justify-end">
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel = "noreferrer">
               <button className="btn btn-warning btn-outline">View</button>
             </a>
           </div>
