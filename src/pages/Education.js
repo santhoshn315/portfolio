@@ -6,24 +6,6 @@ function About1() {
       <h1 className="text-4xl text-[#c48a16] text-center py-10 font-mono w-[100vw] justify-center">
         Education
       </h1>
-      // <div className="card card-bordered font-mono my-1 grid grid-cols-1 justify-center md:px-10 bg-base-100 shadow-xl w-[100vw] mx-1">
-      //   <div className="card-body justify-center">
-      //     <h2 className="card-title  text-[#c48a16]">10th Standard</h2>
-      //     <p>Cambridge Public School | 2014</p>
-      //     <div className="card-actions justify-end md:justify-left">
-      //       <div className="badge  text-[#c48a16] badge-lg text-xl">84%</div>
-      //     </div>
-      //   </div>
-      // </div>
-      // <div className="card card-bordered font-mono my-1 grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[100vw] mx-1">
-      //   <div className="card-body">
-      //     <h2 className="card-title font-mono text-[#c48a16]">12th Standard</h2>
-      //     <p>Nagarjuna PU College | 2016</p>
-      //     <div className="card-actions justify-end md:justify-left">
-      //       <div className="badge  text-[#c48a16] badge-lg text-xl">85%</div>
-      //     </div>
-      //   </div>
-      // </div>
       <div className="card card-bordered my-1 font-mono grid grid-cols-1 justify-center align-center md:px-10 bg-base-100 shadow-xl w-[100vw] mx-1">
         <div className="card-body">
           <h2 className="card-title text-[#c48a16]">
