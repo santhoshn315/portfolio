@@ -10,7 +10,7 @@ function Experience() {
         <div className="card card-bordered my-1 grid font-mono grid-cols-1 justify-center md:px-10 bg-base-100 shadow-xl mx-1">
           <div className="card-body justify-center">
             <h2 className="card-title text-[#c48a16]">Infosys</h2>
-            <p className="list-disc font-mono text-left py-5 text-[#c48a16] ">Systems Engineer | .Net Framework | Oct 2020 - Aug 2021</p>
+            <p className="list-disc font-mono text-left py-5 text-[#c48a16] ">Systems Engineer | Oct 2020 - Aug 2021</p>
             <ul className="list-disc font-mono text-left py-5">
               <li className="py-1">
                 Built scalable RESTful APIs using Java (Spring Boot) and Spring Data JPA, serving 5M+ users.
