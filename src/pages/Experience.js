@@ -13,16 +13,15 @@ function Experience() {
             <p className="list-disc font-mono text-left py-5 text-[#c48a16] ">Systems Engineer | .Net Framework | Oct 2020 - Aug 2021</p>
             <ul className="list-disc font-mono text-left py-5">
               <li className="py-1">
-                Designed, developed and maintained RESTful Web APIs using the ASP.NET Web API framework which
-                impacted around 5 million users.Conducted comprehensive API testing with Postman to ensure proper
-                functionality.
+                Built scalable RESTful APIs using Java (Spring Boot) and Spring Data JPA, serving 5M+ users.
+                Tested APIs with Postman to ensure reliability.
               </li>
               <li className="py-1">
-                Created and optimized the MS SQL database schema and stored procedures, resulting notable reduction
-                in query execution time and enabling the efficient retrieval and storage of data.
+                Optimized SQL queries, stored procedures, and indexing in PostgreSQL, reducing execution time by 35%
+                and improving performance.
               </li>
-              <li className="py-1">Collaborated with product owners, and QA teams to ensure timely delivery of high-quality software, while
-                leveraging HTML, CSS, and JavaScript for front-end and user interface development.
+              <li className="py-1">Developed front-end using React.js and ES6 JavaScript, collaborating with product and QA teams to
+                deliver responsive UIs.
               </li>
             </ul>
           </div>
@@ -36,15 +35,15 @@ function Experience() {
             </p>
             <ul className="list-disc font-mono text-left py-5">
               <li className="py-1">
-                Developed peripheral libraries and Application Drivers using Node.js and Typescript for micro-controllers
-                within MCC Melody, a vital component of MPLABX IDE, serving a user base of over 2 million.
+                Developed peripheral libraries and configuration drivers for MCC Melody, a plugin for the Java-based
+                MPLABX IDE, enabling peripheral setup and C code generation for 2M+ users.
               </li>
               <li className="py-1"> 
-                Engineered user-friendly and intuitive software interfaces to simplify the configuration process for peripherals.
-                This aimed to enhance user efficiency by providing clear and accessible configurations.
+                Built React-based UI components using Typescript and Redux; achieved 80%+ unit test coverage with Jest and
+                integrated with a Java backend via plugin interfaces.
               </li>
-              <li className="py-1">Designed and implemented a dynamic user interface (UI) for MCC Melody, utilizing React.js, Redux for
-                state management, and Jest for comprehensive unit testing, ensuring high code quality and stability.
+              <li className="py-1">Created RESTful Java services (Spring Boot) to serve peripheral metadata, enabling UI features based on device
+                hardware specs.
               </li>
             </ul>
           </div>
