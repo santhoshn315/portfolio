@@ -29,7 +29,7 @@ const Banner = () => {
             Hi, I'm Santosh N, a Software Engineer passionate about building software that makes a difference.<br></br><br></br>
             I earned my Master's in Computer Science from R V College of Engineering and currently work at Microchip Technology, where I develop
             user interfaces and Peripheral libraries for MCC Melody, a software component of MPLABX IDE.<br></br><br></br>
-            At Infosys, I worked on developing RESTful Web APIs using the ASP.NET and crafting MS SQL queries and stored procedures, aimed at optimizing database performance.
+            At Infosys, I worked on developing RESTful Web APIs and crafting SQL queries aimed at optimizing database performance.
             <br></br><br></br>
             I love staying updated with the latest in tech and believe in the power of teamwork for innovative solutions. Let's connect and explore the world of software together!
           </p>
